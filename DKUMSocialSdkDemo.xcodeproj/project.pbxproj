@@ -247,9 +247,10 @@
 		E1CE9FB91DA88E3B0095B217 /* DKUMSocialSdkDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E1CEA0841DA8A4490095B217 /* UserInfo */,
+				E1CEA0821DA8A42A0095B217 /* Share */,
 				E1CEA0951DA8DD6D0095B217 /* Const */,
 				E1CEA0901DA8DAC60095B217 /* Login */,
-				E1CEA0551DA8A2500095B217 /* Controller */,
 				E1CE9FD11DA8930C0095B217 /* Lib */,
 				E1CEA0851DA8A46E0095B217 /* Other */,
 				E1CE9FBA1DA88E3B0095B217 /* Supporting Files */,
@@ -421,9 +422,8 @@
 		E1CEA0551DA8A2500095B217 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E1CEA0841DA8A4490095B217 /* UserInfo */,
-				E1CEA0831DA8A4400095B217 /* Login */,
-				E1CEA0821DA8A42A0095B217 /* Share */,
+				E1CEA0861DA8A4B10095B217 /* DKUMShareContentViewController.h */,
+				E1CEA0871DA8A4B10095B217 /* DKUMShareContentViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -458,24 +458,15 @@
 		E1CEA0821DA8A42A0095B217 /* Share */ = {
 			isa = PBXGroup;
 			children = (
-				E1CEA0861DA8A4B10095B217 /* DKUMShareContentViewController.h */,
-				E1CEA0871DA8A4B10095B217 /* DKUMShareContentViewController.m */,
+				E1CEA0551DA8A2500095B217 /* Controller */,
 			);
 			name = Share;
-			sourceTree = "<group>";
-		};
-		E1CEA0831DA8A4400095B217 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Login;
 			sourceTree = "<group>";
 		};
 		E1CEA0841DA8A4490095B217 /* UserInfo */ = {
 			isa = PBXGroup;
 			children = (
-				E1CEA08C1DA8D2200095B217 /* DKUMSUserInfoTableViewController.h */,
-				E1CEA08D1DA8D2200095B217 /* DKUMSUserInfoTableViewController.m */,
+				E1CEA0BF1DA8F0070095B217 /* Controller */,
 			);
 			name = UserInfo;
 			sourceTree = "<group>";
@@ -564,6 +555,15 @@
 				E1CEA0B31DA8E1600095B217 /* NSString+MJExtension.m */,
 			);
 			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		E1CEA0BF1DA8F0070095B217 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E1CEA08C1DA8D2200095B217 /* DKUMSUserInfoTableViewController.h */,
+				E1CEA08D1DA8D2200095B217 /* DKUMSUserInfoTableViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
