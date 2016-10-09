@@ -24,7 +24,7 @@
     //打开日志
     [[UMSocialManager defaultManager] openLog:YES];
     //设置友盟appkey
-    [[UMSocialManager defaultManager] setUmSocialAppkey:@"57b432afe0f55a9832001a0a"];
+    [[UMSocialManager defaultManager] setUmSocialAppkey:@"57f9a22367e58eb2b9000a22"];
     
     // 获取友盟social版本号
     NSLog(@"UMeng social version: %@", [UMSocialGlobal umSocialSDKVersion]);
@@ -48,7 +48,9 @@
     //    //设置新浪的appId和appKey
     //    [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_Sina appKey:@"3921700954"  appSecret:@"04b48b094faeb16683c32669824ebdad" redirectURL:@"http://sns.whalecloud.com/sina2/callback"];
     //设置新浪的appId和appKey
+//    [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_Sina appKey:@"853742809"  appSecret:@"c3985488af7d15eeb14cc1e5e7aee789" redirectURL:@"http://sns.whalecloud.com/sina2/callback"];
     [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_Sina appKey:@"853742809"  appSecret:@"c3985488af7d15eeb14cc1e5e7aee789" redirectURL:@"http://sns.whalecloud.com/sina2/callback"];
+    
     //设置领英的appId和appKey
     [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_Linkedin appKey:@"81t5eiem37d2sc"  appSecret:@"7dgUXPLH8kA8WHMV" redirectURL:@"https://api.linkedin.com/v1/people"];
     

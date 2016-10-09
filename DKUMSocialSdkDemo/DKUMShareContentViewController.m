@@ -113,8 +113,9 @@
 //直接分享
 - (void)shareDataWithPlatform:(UMSocialPlatformType)platformType
 {
-    
-    UMSocialMessageObject *messageObject = [self creatMessageObject:YES mediastyle:3 isUrl:YES];
+ //修改分享的类型
+#warning
+    UMSocialMessageObject *messageObject = [self creatMessageObject:YES mediastyle:0 isUrl:YES];
     //调用分享接口
     
     [[UMSocialManager defaultManager] shareToPlatform:platformType messageObject:messageObject currentViewController:self completion:^(id data, NSError *error) {

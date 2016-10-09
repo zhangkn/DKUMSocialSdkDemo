@@ -23,7 +23,7 @@
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>DKUMSocialSdkDemo</string>
+				<string>DKUMSocialSdkDemo://sns.whalecloud.com/sina2/callback</string>
 			</array>
 		</dict>
 		<dict>
